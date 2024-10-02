@@ -16,7 +16,7 @@ function App() {
         <SectionServices />
       </div>
       <Outsourcing/>
-      <div className="flex flex-wrap gap-5 p-5 justify-center">
+      <div className="flex flex-wrap justify-center gap-5 p-5">
       {plans.map((plan, index) => (
         <Prices key={index} {...plan} />
       ))}

@@ -25,7 +25,7 @@ export default function Outsourcing() {
         </div>
   
         <div className='w-full lg:w-1/2 my-10'>
-          <img src="/public/outsourcing-img.png" alt="Outsourcing contable" className="h-[200px] w-full rounded-3xl object-contain md:h-[250px] lg:h-[300px]" />
+          <img src="/src/assets/outsourcing-img.png" alt="Outsourcing contable" className="h-[200px] w-full rounded-3xl object-contain md:h-[250px] lg:h-[300px]" />
         </div>
   
       </div>
