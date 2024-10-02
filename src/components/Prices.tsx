@@ -43,7 +43,7 @@ export function Prices({ title, price, period, features, buttonText }: PricesPro
       </ul>
       <button
         type="button"
-        className="inline-flex w-full justify-center rounded-lg bg-navy-600 px-5 py-2.5 text-center bg-red-600 text-sm font-medium text-white hover:bg-navy-700 focus:outline-none focus:ring-4 focus:ring-navy-200 dark:focus:ring-navy-900"
+        className="bg-navy-600 hover:bg-navy-700 focus:ring-navy-200 dark:focus:ring-navy-900 inline-flex w-full justify-center rounded-lg bg-red-600 px-5 py-2.5 text-center text-sm font-medium text-white focus:outline-none focus:ring-4"
       >
         {buttonText}
       </button>
