@@ -9,22 +9,22 @@ export default function Outsourcing() {
           </p>
   
           <div className='mt-[50px] flex flex-col gap-3'>
-            <p className='text-start text-gray-500 flex'>
-              <img src="/public/arrow-right-circle-fill.svg" className="w-5 mx-3" />
+            <p className='flex text-start text-gray-500'>
+              <img src="/public/img/arrow-right-circle-fill.svg" className="w-5 mx-3" />
               Registro de ventas y compras.
             </p>
-            <p className='text-start text-gray-500 flex'>
-              <img src="/public/arrow-right-circle-fill.svg" className="w-5 mx-3" />
+            <p className='flex text-start text-gray-500'>
+              <img src="/public/img/arrow-right-circle-fill.svg" className="w-5 mx-3" />
               Gestión de documentos contables
             </p>
-            <p className='text-start text-gray-500 flex'>
-              <img src="/public/arrow-right-circle-fill.svg" className="w-5 mx-3" />
+            <p className='flex text-start text-gray-500'>
+              <img src="/public/img/arrow-right-circle-fill.svg" className="w-5 mx-3" />
               Declaración de impuestos IGV - Renta
             </p>
           </div>
         </div>
   
-        <div className='w-full lg:w-1/2 my-10'>
+        <div className='my-10 w-full lg:w-1/2'>
           <img src="/src/assets/outsourcing-img.png" alt="Outsourcing contable" className="h-[200px] w-full rounded-3xl object-contain md:h-[250px] lg:h-[300px]" />
         </div>
   

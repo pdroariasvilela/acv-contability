@@ -4,7 +4,7 @@ function NavbarItem() {
   return (
       <Navbar fluid  className="border-b">
       <Navbar.Brand href="">
-        <img src="/src/assets/logosinfondo.png" className="mr-3 h-[60px] sm:h-[80px]" alt="Flowbite React Logo" />
+        <img src="/public/img/logosinfondo.png" className="mr-3 h-[60px] sm:h-[80px]" alt="Flowbite React Logo" />
       </Navbar.Brand>
       <div className="flex gap-4 md:order-2">
         <Button color="failure" >Cotiza aqui</Button>
