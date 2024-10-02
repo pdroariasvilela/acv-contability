@@ -1,3 +1,6 @@
+import Flecha from "../../public/img/arrow-right-circle-fill.svg"
+import ImagenAsesora from "../../public/img/outsourcing-img.png"
+
 export default function Outsourcing() {
     return (
       <div className='flex flex-col lg:flex-row w-[90%] items-center justify-center bg-slate-50 lg:p-10 rounded-2xl'>
@@ -10,22 +13,22 @@ export default function Outsourcing() {
   
           <div className='mt-[50px] flex flex-col gap-3'>
             <p className='flex text-start text-gray-500'>
-              <img src="/public/img/arrow-right-circle-fill.svg" className="w-5 mx-3" />
+              <img src={Flecha} className="w-5 mx-3" />
               Registro de ventas y compras.
             </p>
             <p className='flex text-start text-gray-500'>
-              <img src="/public/img/arrow-right-circle-fill.svg" className="w-5 mx-3" />
+              <img src={Flecha} className="w-5 mx-3" />
               Gestión de documentos contables
             </p>
             <p className='flex text-start text-gray-500'>
-              <img src="/public/img/arrow-right-circle-fill.svg" className="w-5 mx-3" />
+              <img src={Flecha} className="w-5 mx-3" />
               Declaración de impuestos IGV - Renta
             </p>
           </div>
         </div>
   
         <div className='my-10 w-full lg:w-1/2'>
-          <img src="/src/assets/outsourcing-img.png" alt="Outsourcing contable" className="h-[200px] w-full rounded-3xl object-contain md:h-[250px] lg:h-[300px]" />
+          <img src={ImagenAsesora} alt="Outsourcing contable" className="h-[200px] w-full rounded-3xl object-contain md:h-[250px] lg:h-[300px]" />
         </div>
   
       </div>
